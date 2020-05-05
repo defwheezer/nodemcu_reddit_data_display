@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pluri Media Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta HTTP-EQUIV="Pragma" content="no-cache">
+<meta http-equiv="refresh" content="60; url=reddit_data.php">
+</head>
+<body>
+<pre>16:11:35-07:00</pre><pre>2020-05-05<pre>total_karma:6848</pre><pre>new_mail:FALSE</pre><pre>inbox_count:0</pre>
+
+<! –– call using using Oauth2 and php script http://www.reddit.com/dev/api/oauth#GET_api_v1_me_prefs ––> 
+<! –– and the reddit api returns this object (my php script converts to array)––> 
+<pre>object(stdClass)#2 (60) {
+  ["is_employee"]=>
+  bool(false)
+  ["seen_layout_switch"]=>
+  bool(true)
+  ["has_visited_new_profile"]=>
+  bool(true)
+  ["pref_no_profanity"]=>
+  bool(false)
+  ["has_external_account"]=>
+  bool(false)
+  ["pref_geopopular"]=>
+  string(0) ""
+  ["seen_redesign_modal"]=>
+  bool(true)
+  ["pref_show_trending"]=>
+  bool(true)
+  ["subreddit"]=>
+  object(stdClass)#3 (39) {
+    ["default_set"]=>
+    bool(true)
+    ["user_is_contributor"]=>
+    bool(false)
+    ["banner_img"]=>
+    string(0) ""
+<! –– bunch of other data cut out––> 
+
+<! –– this is the good stuff here––> 
+  bool(true)
+  ["link_karma"]=>
+  int(3030)
+  ["force_password_reset"]=>
+  bool(false)
+  ["seen_give_award_tooltip"]=>
+  bool(false)
+  ["inbox_count"]=>
+  int(0)
+  ["pref_top_karma_subreddits"]=>
+  bool(false)
+  ["has_mail"]=>
+  bool(false)
+  ["pref_show_snoovatar"]=>
+  bool(false)
+  ["name"]=>
+  string(13) "ivoidwarranty"
+  ["pref_clickgadget"]=>
+  int(5)
+  ["created"]=>
+  float(1284812184)
+  ["gold_creddits"]=>
+  int(0)
+  ["created_utc"]=>
+  float(1284783384)
+  ["has_ios_subscription"]=>
+  bool(false)
+  ["pref_show_twitter"]=>
+  bool(false)
+  ["in_beta"]=>
+  bool(false)
+  ["comment_karma"]=>
+  int(3818)
+  ["has_subscribed"]=>
+  bool(true)
+  ["linked_identities"]=>
+  array(0) {
+  }
+  ["seen_subreddit_chat_ftux"]=>
+  bool(false)
+}
+</pre></pre></body>
+</html>
