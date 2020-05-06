@@ -7,4 +7,4 @@ I used php to connect to the Reddit api,, but python examples also exist.
 #
 Wiring diagram see "reddit_wiring.png"
 #
-Youtube of reddit animations, etc: 
+Youtube of reddit animations, etc: https://youtu.be/rxilyx7hE3U
