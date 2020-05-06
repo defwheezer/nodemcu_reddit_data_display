@@ -3,6 +3,8 @@ Uses the TFT_eSPI library (https://github.com/Bodmer/TFT_eSPI) for displaying im
 # 
 Set up your own page with data to scrape. 
 # 
-I ueed php to connect to the Reddit api,, but python examples also exist.
+I used php to connect to the Reddit api,, but python examples also exist.
 #
 Wiring diagram see "reddit_wiring.png"
+#
+Youtube of reddit animations, etc: 
